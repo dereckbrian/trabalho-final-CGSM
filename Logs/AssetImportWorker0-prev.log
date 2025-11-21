@@ -11,13 +11,13 @@ C:\Program Files\Unity\Hub\Editor\2022.3.62f3\Editor\Unity.exe
 -name
 AssetImportWorker0
 -projectPath
-C:/Users/voluciano/OneDrive/Documentos/programacao/trabalhoJoao/testepoha/Projeto-Final-CG
+C:/Users/voluciano/OneDrive/Documentos/programacao/trabalhoJoao/Projeto-Final-CG
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-58454
-Successfully changed project path to: C:/Users/voluciano/OneDrive/Documentos/programacao/trabalhoJoao/testepoha/Projeto-Final-CG
-C:/Users/voluciano/OneDrive/Documentos/programacao/trabalhoJoao/testepoha/Projeto-Final-CG
+58491
+Successfully changed project path to: C:/Users/voluciano/OneDrive/Documentos/programacao/trabalhoJoao/Projeto-Final-CG
+C:/Users/voluciano/OneDrive/Documentos/programacao/trabalhoJoao/Projeto-Final-CG
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
     "memorysetup-bucket-allocator-granularity=16"
     "memorysetup-bucket-allocator-bucket-count=8"
@@ -49,19 +49,19 @@ C:/Users/voluciano/OneDrive/Documentos/programacao/trabalhoJoao/testepoha/Projet
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [31792]  Target information:
+Player connection [25856]  Target information:
 
-Player connection [31792]  * "[IP] 10.0.0.241 [Port] 0 [Flags] 2 [Guid] 1447345141 [EditorId] 1447345141 [Version] 1048832 [Id] WindowsEditor(7,Voluciano) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
+Player connection [25856]  * "[IP] 10.0.0.241 [Port] 0 [Flags] 2 [Guid] 668154313 [EditorId] 668154313 [Version] 1048832 [Id] WindowsEditor(7,Voluciano) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" 
 
-Player connection [31792] Host joined multi-casting on [225.0.0.222:54997]...
-Player connection [31792] Host joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [25856] Host joined multi-casting on [225.0.0.222:54997]...
+Player connection [25856] Host joined alternative multi-casting on [225.0.0.222:34997]...
 Input System module state changed to: Initialized.
 [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-Refreshing native plugins compatible for Editor in 13.29 ms, found 3 plugins.
+Refreshing native plugins compatible for Editor in 9.85 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2022.3.62f3 (96770f904ca7)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Resources/UnitySubsystems
-[Subsystems] Discovering subsystems at path C:/Users/voluciano/OneDrive/Documentos/programacao/trabalhoJoao/testepoha/Projeto-Final-CG/Assets
+[Subsystems] Discovering subsystems at path C:/Users/voluciano/OneDrive/Documentos/programacao/trabalhoJoao/Projeto-Final-CG/Assets
 GfxDevice: creating device client; threaded=0; jobified=0
 Direct3D:
     Version:  Direct3D 11.0 [level 11.1]
@@ -73,19 +73,17 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56044
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56708
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
-Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2022.3.62f3/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.006140 seconds.
-- Loaded All Assemblies, in  0.308 seconds
+Registered in 0.005228 seconds.
+- Loaded All Assemblies, in  0.234 seconds
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.245 seconds
-Domain Reload Profiling: 552ms
-	BeginReloadAssembly (99ms)
+- Finished resetting the current domain, in  0.168 seconds
+Domain Reload Profiling: 401ms
+	BeginReloadAssembly (72ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (0ms)
 		BackupInstance (0ms)
@@ -93,26 +91,26 @@ Domain Reload Profiling: 552ms
 		CreateAndSetChildDomain (0ms)
 	RebuildCommonClasses (22ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (42ms)
-	LoadAllAssembliesAndSetupDomain (138ms)
-		LoadAssemblies (97ms)
+	initialDomainReloadingComplete (39ms)
+	LoadAllAssembliesAndSetupDomain (94ms)
+		LoadAssemblies (70ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (135ms)
-			TypeCache.Refresh (133ms)
-				TypeCache.ScanAssembly (116ms)
-			ScanForSourceGeneratedMonoScriptInfo (1ms)
-			ResolveRequiredComponents (1ms)
-	FinalizeReload (245ms)
+		AnalyzeDomain (92ms)
+			TypeCache.Refresh (91ms)
+				TypeCache.ScanAssembly (81ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (0ms)
+	FinalizeReload (168ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (200ms)
+		SetupLoadedEditorAssemblies (138ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (14ms)
+			InitializePlatformSupportModulesInManaged (7ms)
 			SetLoadedEditorAssemblies (5ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (1ms)
-			ProcessInitializeOnLoadAttributes (137ms)
-			ProcessInitializeOnLoadMethodAttributes (43ms)
+			BeforeProcessingInitializeOnLoad (2ms)
+			ProcessInitializeOnLoadAttributes (94ms)
+			ProcessInitializeOnLoadMethodAttributes (31ms)
 			AfterProcessingInitializeOnLoad (0ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
@@ -121,41 +119,40 @@ Domain Reload Profiling: 552ms
 Worker process is ready to serve import requests
 Caller must complete domain reload
 Begin MonoManager ReloadAssembly
-- Loaded All Assemblies, in  0.514 seconds
+- Loaded All Assemblies, in  0.460 seconds
 Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
 Mono: successfully reloaded assembly
-- Finished resetting the current domain, in  0.433 seconds
-Domain Reload Profiling: 945ms
-	BeginReloadAssembly (111ms)
+- Finished resetting the current domain, in  0.419 seconds
+Domain Reload Profiling: 877ms
+	BeginReloadAssembly (95ms)
 		ExecutionOrderSort (0ms)
 		DisableScriptedObjects (3ms)
 		BackupInstance (0ms)
 		ReleaseScriptingObjects (0ms)
-		CreateAndSetChildDomain (17ms)
-	RebuildCommonClasses (20ms)
+		CreateAndSetChildDomain (14ms)
+	RebuildCommonClasses (21ms)
 	RebuildNativeTypeToScriptingClass (6ms)
-	initialDomainReloadingComplete (30ms)
-	LoadAllAssembliesAndSetupDomain (344ms)
-		LoadAssemblies (267ms)
+	initialDomainReloadingComplete (29ms)
+	LoadAllAssembliesAndSetupDomain (306ms)
+		LoadAssemblies (230ms)
 		RebuildTransferFunctionScriptingTraits (0ms)
-		AnalyzeDomain (138ms)
-			TypeCache.Refresh (120ms)
-				TypeCache.ScanAssembly (108ms)
-			ScanForSourceGeneratedMonoScriptInfo (12ms)
+		AnalyzeDomain (132ms)
+			TypeCache.Refresh (114ms)
+				TypeCache.ScanAssembly (102ms)
+			ScanForSourceGeneratedMonoScriptInfo (13ms)
 			ResolveRequiredComponents (4ms)
-	FinalizeReload (433ms)
+	FinalizeReload (420ms)
 		ReleaseScriptCaches (0ms)
 		RebuildScriptCaches (0ms)
-		SetupLoadedEditorAssemblies (332ms)
+		SetupLoadedEditorAssemblies (319ms)
 			LogAssemblyErrors (0ms)
-			InitializePlatformSupportModulesInManaged (9ms)
-			SetLoadedEditorAssemblies (3ms)
+			InitializePlatformSupportModulesInManaged (4ms)
+			SetLoadedEditorAssemblies (2ms)
 			RefreshPlugins (0ms)
-			BeforeProcessingInitializeOnLoad (44ms)
-			ProcessInitializeOnLoadAttributes (230ms)
+			BeforeProcessingInitializeOnLoad (43ms)
+			ProcessInitializeOnLoadAttributes (223ms)
 			ProcessInitializeOnLoadMethodAttributes (41ms)
-			AfterProcessingInitializeOnLoad (4ms)
+			AfterProcessingInitializeOnLoad (5ms)
 			EditorAssembliesLoaded (0ms)
 		ExecutionOrderSort2 (0ms)
 		AwakeInstancesAfterBackupRestoration (4ms)
@@ -171,13 +168,13 @@ WARNING: Shader If subshaders removal was intentional, you may have forgotten tu
 WARNING: Shader Unsupported: 'Toon/Lit Outline' - All subshaders removed
 WARNING: Shader Did you use #pragma only_renderers and omit this platform?
 WARNING: Shader If subshaders removal was intentional, you may have forgotten turning Fallback off?
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
-Refreshing native plugins compatible for Editor in 4.66 ms, found 3 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.03 seconds
+Refreshing native plugins compatible for Editor in 3.38 ms, found 3 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 3573 Unused Serialized files (Serialized files now loaded: 0)
-Unloading 59 unused Assets / (3.9 MB). Loaded Objects now: 4031.
-Memory consumption went from 174.0 MB to 170.1 MB.
-Total: 3.153200 ms (FindLiveObjects: 0.292000 ms CreateObjectMapping: 0.136800 ms MarkObjects: 1.887900 ms  DeleteObjects: 0.835300 ms)
+Unloading 3574 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 59 unused Assets / (3.9 MB). Loaded Objects now: 4050.
+Memory consumption went from 185.7 MB to 181.8 MB.
+Total: 3.482600 ms (FindLiveObjects: 0.185500 ms CreateObjectMapping: 0.047500 ms MarkObjects: 2.499300 ms  DeleteObjects: 0.749500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
@@ -194,14 +191,159 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 19467.849801 seconds.
-  path: Assets/Walking.fbx
-  artifactKey: Guid(d0a36d257020ddf42999315706ad5152) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Walking.fbx using Guid(d0a36d257020ddf42999315706ad5152) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
-[PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
- -> (artifact id: '304b7f2e8ea3d888c99ac5cae3584529') in 0.350531 seconds
+  Time since last request: 64045.283190 seconds.
+  path: Assets
+  artifactKey: Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets using Guid(00000000000000001000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ae5280ad91af67e2a353905758f96678') in 0.002441 seconds
 Number of updated asset objects reloaded before import = 0
-Number of asset objects unloaded after import = 126
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 22.663874 seconds.
+  path: Assets/New Animator Controller.controller
+  artifactKey: Guid(fb45efec89a886d4a9a1435fa8af0fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Animator Controller.controller using Guid(fb45efec89a886d4a9a1435fa8af0fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ceab78b297a19899ef6acb4294ddfb52') in 0.007898 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 9.521667 seconds.
+  path: Assets/controllador do carinha.controller
+  artifactKey: Guid(fb45efec89a886d4a9a1435fa8af0fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/controllador do carinha.controller using Guid(fb45efec89a886d4a9a1435fa8af0fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'cc81e0de9c306127f19b67416af5cf3f') in 0.001227 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 45.298137 seconds.
+  path: Assets/Blink/Art/Animations
+  artifactKey: Guid(98e03a1ea4d2ea4478376e533d09f21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animations using Guid(98e03a1ea4d2ea4478376e533d09f21a) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'a2ab46d10d6cece3d4c649fcb97fc362') in 0.000414 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.217876 seconds.
+  path: Assets/Blink/Art/Animations/Movement
+  artifactKey: Guid(2df16523627fcc9498ddc55c7c6ec750) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animations/Movement using Guid(2df16523627fcc9498ddc55c7c6ec750) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b0946facb724f0682e6b93a3c8e594f2') in 0.000687 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.065837 seconds.
+  path: Assets/Blink/Art/Animations/Movement/FallingLoop.fbx
+  artifactKey: Guid(15e216e1b12268b4cae1302c53cc43dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animations/Movement/FallingLoop.fbx using Guid(15e216e1b12268b4cae1302c53cc43dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '7622a7b605a00b63aa0e027585ea0109') in 0.014515 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/Blink/Art/Animations/Movement/Jumps.fbx
+  artifactKey: Guid(f431314797169014584017049600a63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animations/Movement/Jumps.fbx using Guid(f431314797169014584017049600a63e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'f7b6f7ad1066deb3c00f6456b0f69603') in 0.004211 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 162
+========================================================================
+Received Import Request.
+  Time since last request: 0.001494 seconds.
+  path: Assets/Blink/Art/Animations/Movement/JumpWhileRunning.fbx
+  artifactKey: Guid(a37cdcae8238ca446a7296cf62413b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animations/Movement/JumpWhileRunning.fbx using Guid(a37cdcae8238ca446a7296cf62413b0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '71421549b8d10e3e797cdf6a80b443de') in 0.003535 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Blink/Art/Animations/Movement/WalkBackward.fbx
+  artifactKey: Guid(8d55f6f9b242d5b41bfa11d806d6e5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animations/Movement/WalkBackward.fbx using Guid(8d55f6f9b242d5b41bfa11d806d6e5be) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b09b64688639d2588a49c6f318869dd9') in 0.004548 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/Blink/Art/Animations/Movement/WalkForwardLeft.fbx
+  artifactKey: Guid(42e1f4636848ea643a491b1f4517bd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animations/Movement/WalkForwardLeft.fbx using Guid(42e1f4636848ea643a491b1f4517bd93) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '9b363f345480af0a419818ab48e6e98d') in 0.003953 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Blink/Art/Animations/Movement/RunRight.fbx
+  artifactKey: Guid(23a8707d3821acf42b4929bdc13c3200) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animations/Movement/RunRight.fbx using Guid(23a8707d3821acf42b4929bdc13c3200) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0fdcbb526e9fce56e967f7f7e79f0903') in 0.002948 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/Blink/Art/Animations/Movement/RollLeft.fbx
+  artifactKey: Guid(1d5263533c3da244d99ee40f3464e8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animations/Movement/RollLeft.fbx using Guid(1d5263533c3da244d99ee40f3464e8b8) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '93a029aacb6959e4dc4803f611d08fdf') in 0.003684 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Blink/Art/Animations/Movement/RunForward.fbx
+  artifactKey: Guid(b09d851b76d92f144abcea300e30fa58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animations/Movement/RunForward.fbx using Guid(b09d851b76d92f144abcea300e30fa58) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b8dcc0ae3b182e5c78bec182a65e5386') in 0.003679 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Blink/Art/Animations/Movement/RunBackward.fbx
+  artifactKey: Guid(c4220332113c53f40b2f01986b4dece5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animations/Movement/RunBackward.fbx using Guid(c4220332113c53f40b2f01986b4dece5) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'b0dd785ce1a50c06d14af8dc7bbe601b') in 0.003788 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/Blink/Art/Animations/Movement/RunBackwardLeft.fbx
+  artifactKey: Guid(795d7e2aa16edf544a19d9686ca095f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animations/Movement/RunBackwardLeft.fbx using Guid(795d7e2aa16edf544a19d9686ca095f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'ce0c47c0fe1ba552987d9a733e2bb04a') in 0.002840 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 0.000010 seconds.
+  path: Assets/Blink/Art/Animations/Movement/StrafeRight.fbx
+  artifactKey: Guid(087092adc27465a41a8f07804f3c0178) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animations/Movement/StrafeRight.fbx using Guid(087092adc27465a41a8f07804f3c0178) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: '0bea0874b8b92d41dd17516ac628e432') in 0.004022 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/Blink/Art/Animations/Movement/WalkBackwardLeft.fbx
+  artifactKey: Guid(ccb2245d1ee5d744a95938cf855d04a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Blink/Art/Animations/Movement/WalkBackwardLeft.fbx using Guid(ccb2245d1ee5d744a95938cf855d04a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b) [PhysX] Initialized MultithreadedTaskDispatcher with 20 workers.
+ -> (artifact id: 'c10a7fd5c25d30e9f56bd4d4376f3253') in 0.003366 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 160
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: A operação de E/S foi anulada devido a uma saída de thread ou a uma requisição de aplicativo.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

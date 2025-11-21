@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\voluciano\\OneDrive\\Documentos\\programacao\\trabalhoJoao\\Projeto-Final-CG\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{1927D197-7FC3-4068-BAC0-BA251C1E4777}|Assembly-CSharp.csproj|c:\\users\\voluciano\\onedrive\\documentos\\programacao\\trabalhojoao\\projeto-final-cg\\assets\\scripts\\cameramoviment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1927D197-7FC3-4068-BAC0-BA251C1E4777}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\cameramoviment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1927D197-7FC3-4068-BAC0-BA251C1E4777}|Assembly-CSharp.csproj|c:\\users\\voluciano\\onedrive\\documentos\\programacao\\trabalhojoao\\projeto-final-cg\\assets\\scripts\\movimentplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1927D197-7FC3-4068-BAC0-BA251C1E4777}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\movimentplayer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "cameraMoviment.cs",
+              "DocumentMoniker": "C:\\Users\\voluciano\\OneDrive\\Documentos\\programacao\\trabalhoJoao\\Projeto-Final-CG\\Assets\\scripts\\cameraMoviment.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\cameraMoviment.cs",
+              "ToolTip": "C:\\Users\\voluciano\\OneDrive\\Documentos\\programacao\\trabalhoJoao\\Projeto-Final-CG\\Assets\\scripts\\cameraMoviment.cs",
+              "RelativeToolTip": "Assets\\scripts\\cameraMoviment.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T19:10:07.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "movimentPlayer.cs",
+              "DocumentMoniker": "C:\\Users\\voluciano\\OneDrive\\Documentos\\programacao\\trabalhoJoao\\Projeto-Final-CG\\Assets\\scripts\\movimentPlayer.cs",
+              "RelativeDocumentMoniker": "Assets\\scripts\\movimentPlayer.cs",
+              "ToolTip": "C:\\Users\\voluciano\\OneDrive\\Documentos\\programacao\\trabalhoJoao\\Projeto-Final-CG\\Assets\\scripts\\movimentPlayer.cs",
+              "RelativeToolTip": "Assets\\scripts\\movimentPlayer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADgAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-20T17:19:24.431Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

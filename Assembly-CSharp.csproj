@@ -97,6 +97,7 @@
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\BloomOptimized.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\Triangles.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\CameraMotionBlur.cs" />
+    <Compile Include="Assets\scripts\cameraMoviment.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\VignetteAndChromaticAberration.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\BlurOptimized.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ScreenSpaceAmbientOcclusion.cs" />
@@ -106,6 +107,7 @@
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\MotionBlur.cs" />
     <Compile Include="Assets\Visual Design Cafe\Nature Renderer Demo\Scripts\UseReferenceCamera.cs" />
     <Compile Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Scripts\ColorCorrectionRamp.cs" />
+    <Compile Include="Assets\scripts\movimentPlayer.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\NatureStarterKit2\Standard Assets\Effects\ImageEffects\Shaders\Tonemapper.shader" />
@@ -1090,6 +1092,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.Postprocessing.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.ProBuilder">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Timeline.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Timeline.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1110,16 +1116,24 @@
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.VisualScripting.Core.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.Core.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.ProBuilder.AddOns.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AddOns.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.Rider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.Rider.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Formats.Fbx.Runtime">
+      <HintPath>Library\ScriptAssemblies\Unity.Formats.Fbx.Runtime.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.Flow">
@@ -1138,6 +1152,10 @@
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Mono.Reflection.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Unity.ProBuilder.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.VisualScripting.SettingsProvider.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.VisualScripting.SettingsProvider.Editor.dll</HintPath>
       <Private>False</Private>
@@ -1146,16 +1164,20 @@
       <HintPath>Library\ScriptAssemblies\Unity.Performance.Profile-Analyzer.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
-    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
-      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
-      <Private>False</Private>
-    </Reference>
     <Reference Include="Unity.TestTools.CodeCoverage.Editor.OpenCover.Model">
       <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.OpenCover.Model.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.PlasticSCM.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.PlasticSCM.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.TestTools.CodeCoverage.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.TestTools.CodeCoverage.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Autodesk.Fbx">
+      <HintPath>Library\ScriptAssemblies\Autodesk.Fbx.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.Postprocessing.Editor">
@@ -1170,12 +1192,24 @@
       <HintPath>Library\ScriptAssemblies\Unity.Settings.Editor.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="Autodesk.Fbx.Editor">
+      <HintPath>Library\ScriptAssemblies\Autodesk.Fbx.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.Formats.Fbx.Editor">
+      <HintPath>Library\ScriptAssemblies\Unity.Formats.Fbx.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
       <HintPath>Library\ScriptAssemblies\Unity.TextMeshPro.Editor.dll</HintPath>
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Unity.ProBuilder.AssetIdRemapUtility">
+      <HintPath>Library\ScriptAssemblies\Unity.ProBuilder.AssetIdRemapUtility.dll</HintPath>
       <Private>False</Private>
     </Reference>
     <Reference Include="Unity.VisualScripting.State">
